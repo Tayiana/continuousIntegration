@@ -5,16 +5,6 @@ import org.junit.Test
 import kotlin.math.roundToInt
 
 class DifferentCommissionKtTest {
-    
-    @Test
-    fun formatResult() {
-        val amount = 70000.00000
-        val actualAmountChargedVisaStandardCommission = "Текущий перевод с учетом комиссии составит: 70000,00 руб."
-        assertEquals(
-            formatResult(amount),
-            actualAmountChargedVisaStandardCommission
-        )
-    }
 
     @Test
     fun getAmountChargedVkPay() {
