@@ -5,8 +5,7 @@ import org.junit.Test
 import kotlin.math.roundToInt
 
 class DifferentCommissionKtTest {
-
-
+    
     @Test
     fun formatResult() {
         val amount = 70000.00000
