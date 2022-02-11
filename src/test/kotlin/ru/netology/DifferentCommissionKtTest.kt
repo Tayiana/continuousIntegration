@@ -27,7 +27,7 @@ class DifferentCommissionKtTest {
         val standardCommission2 = amount * 0.006
         val limit1 = 75000.00
         val previousMonthAmount = 0.00
-        val actualAmountChargedVisaStandardCommission = 70000.00
+        val actualAmountChargedVisaStandardCommission = 70000.50 // broken test
 
         val amountChargedVisaStandardCommission = getAmountCharged(
             typeCard,
